@@ -7,6 +7,28 @@ section #histoire { margin: 10px}
 section #monuments { margin: 10px}
 section #event { margin: 10px}
 img { width: 150px;}
+p { color: blue;}
 
 
-
+html {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 6% 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.nav_bar {
+        display: flex;
+        position: fixed;
+        background-color: aliceblue;
+        grid-template-columns: repeat(3, 1fr) 0.25fr 0.2fr 0.2fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+}
+.nav_bar_button {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
