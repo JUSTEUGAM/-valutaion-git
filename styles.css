@@ -20,3 +20,12 @@ html {
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 }
+p2 { color: blue;}
+p3 { color: red;}
+h1 { border: 5px solid#1aa6e7; padding: 10px; text-align: center;}
+body { background-color:lightgrey ;} 
+section #accueil { margin: 10px}
+section #histoire { margin: 10px}
+section #monuments { margin: 10px}
+section #event { margin: 10px}
+img { width: 150px;}
