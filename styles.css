@@ -3,3 +3,25 @@ p3 { color: red;}
 
 
 body{ background-color:lightgrey ;} 
+html {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 6% 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.nav_bar {
+        display: flex;
+        position: fixed;
+        background-color: aliceblue;
+        grid-template-columns: repeat(3, 1fr) 0.25fr 0.2fr 0.2fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+}
+.nav_bar_button {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
